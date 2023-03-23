@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Dinosaurio</title>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">DINOS</a>
+            <a href="page-1.html">CONEJO</a>
+            <a href="page-2.html">LEOPARDO</a>
+            <a href="page-3.html">BRAQUIO</a>
+        </nav>
+        <main></main>
+        <aside>
+            <p> Hola, me llamo Martina y me dicen la Martuca, tomé este ramo porque me interesa adentrarme en el diseño de páginas web, ámbito del diseño que desconozco por completo. </p>
+        </aside>
+        <script>
+            function setup() {
+                createCanvas(windowWidth, windowHeight);
+                selectAll("a")[0].addClass("aqui")
+            }
+
+            function draw() {
+                background(54,112,30);
+                textAlign(CENTER,CENTER);
+                textSize(100);
+                text("🦖", mouseX, mouseY);
+} 
+        </script>
+    </body>
+</html>
